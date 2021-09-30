@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    padding-right: 350px;
+    padding-left: 10px;
+  
+}
+h1{
+    text-align: center;
+
+}
+

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devide-width, initial-scale-1.0">
+    <title>ArtByLavi | ecommerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/art.png" height="90px" width=" 150px">
+        </div>
+        <nav>
+            <ul id="menuitems">
+                <li> <a href="">Home</a></li>
+                <li> <a href="">Products</a></li>
+                <li> <a href="">About</a></li>
+                <li> <a href="">Contact</a></li>
+                <li> <a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src="images/cart.png" width="30px" height="30px">
+        <img src="images/menu2.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1> Let's Take <br>An Art Tour!</h1><br>
+
+            <p>Introducing you to my art collection. All the artworks offered here are genuine and authentic. </p>
+            <a href="" class="btn">Explore Now &#8594</a>
+        </div>
+        <div class="col-2">
+            <img src="images/collage.jpg">
+        </div>
+        
+    </div>
+</div>
+</div>
+   <div class="categories">
+       <div class="small-container">
+       <div class="row">
+           <div class="col">
+               <img src="images/aiswarya_fit.jpg" width="300px" height="400px">
+           </div>
+           <div class="col">
+               <img src="images/baba.JPG" width="300px" height="400px">
+           </div>
+           <div class="col">
+               <img src="images/kathak_kali.jpg" width="300px" height="400px">
+            </div>
+           
+        </div>
+       </div>
+   </div>
+   
+       <div class="small-container">
+           <h2 class="title">Featured Art Products</h2>
+           <div class="row">
+               <div class="col-4">
+                   <img src="images/man_with_swag.jpg" width="300px" height="400px" >
+                   <h4>Man With Swag - <br> ACRYLIC PAINTING</h4>
+                    
+                
+                   <P>$50.00</P>
+                   
+                   <button type="button" class="btn btn-primary">Add To Cart</button>
+                  <a href="checkout.html" class="btn"> BUY NOW </a>
+               </div>
+               <div class="col-4">
+                <img src="images/hare_krishna.jpg" width="300px" height="400px">
+                <h4> GOD Krishna - <br> ACRYLIC PAINTING</h4>
+                
+                <P>$90.00</P>
+                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <a href="checkout.html" class="btn"> BUY NOW </a>
+            </div>
+            <div class="col-4">
+                <img src="images/mr_bean1.jpg" width="300px" height="400px">
+                <h4>Puzzled MR-BEAN - <br> ACRYLIC PAINTING</h4>
+                
+                <P>$85.00</P>
+                <button type="button" class="btn btn-primary">Add To Cart</button>
+                <a href="checkout.html" class="btn"> BUY NOW </a>
+            </div>
+            <div class="col-4">
+                <img src="images/me.jpg" width="300px" height="400px">
+                <h4> Face On Canvas - <br> ACRYLIC PAINTING</h4>
+                
+                <P>$40.00</P>
+                <button type="button" class="btn btn-primary" >Add To Cart</button>
+                <a href="checkout.html" class="btn"> BUY NOW </a>
+            </div>
+           </div>
+       
+       </div>
+       <div class="footer">
+           <div class="container">
+               <div class="row">
+                   <div class="footer-col-1">
+                       <h3>Download Our App</h3>
+                       <p> Download App for Android ios mobile phone. </p>
+                       <div class="app-logo">
+                        <img src="images/play2.png">
+                        
+                    </div>
+                   </div>
+                <div class="footer-col-2">
+                    <img src="images/art.png" >
+                    <p> Our Purpose Is To make you fall in love <br>with Art we create.</p>
+                    
+                </div>
+                   <div class="footer-col-3">
+                       <h3> Useful Links</h3>
+                       <ul>
+                           <li>Coupons</li>
+                           <li>Blog Post</li>
+                           <li>Return Policy</li>
+                           <li>Join Affiliate</li>
+                       </ul>
+                   </div>
+                   <div class="footer-col-4">
+                    <h3> Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+               </div>
+               </div>
+              <hr>
+              <p class="copyright">Copyright 2021</p>
+           </div>
+       </div>
+
+   <script>
+       var menuitems=document.getElementById("menuitems");
+       menuitems.style.maxHeight="0px";
+       function menutoggle(){
+           if(menuitems.style.maxHeight=="0px")
+           {
+               menuitems.style.maxHeight="200px";
+           }
+           else{
+               menuitems.style.maxHeight="0px";
+           }
+       }
+   </script>
+</body>
+
+</html>
